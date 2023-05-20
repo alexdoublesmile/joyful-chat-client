@@ -1,0 +1,12 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="org.example.zeptochatclient.Controller" xmlns:fx="http://javafx.com/fxml">
+    <TextArea fx:id="mainArea" editable="false" VBox.vgrow="ALWAYS"/>
+    <HBox>
+        <TextField fx:id="msgField" HBox.hgrow="ALWAYS" promptText="Enter your message..." onAction="#sendMsgAction" />
+        <Button text="Send" onAction="#sendMsgAction" />
+    </HBox>
+</VBox>
