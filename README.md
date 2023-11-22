@@ -1,4 +1,4 @@
-# ZeptoChat Desktop Client based on JavaFX (v.0.0.1)
+# JoyfulChat Desktop Client based on JavaFX (v.0.0.1)
 
 ## Running
 
@@ -9,7 +9,7 @@ To get started with the project, you will need to have the following installed:
 
 Once you have the necessary software installed, you can clone the project from GitHub:
 ```
-git clone https://github.com/alexdoublesmile/zeptochat-client.git
+git clone https://github.com/alexdoublesmile/joyful-chat-client.git
 ```
 To run the project, open the project in your IDE and run the Main class, or you can use terminal. 
 
@@ -21,7 +21,7 @@ While running, you can set some environment variables for additional chat server
 |---|---|---|
 |SERVER_HOST|server host value|localhost
 |SERVER_PORT|server port value|8080
-|CLIENT_NAME|client window name|ZeptoChat
+|CLIENT_NAME|client window name|JoyfulChat
 |CLIENT_WIDTH|window width (px)|500
 |CLIENT_HEIGHT|window height (px)|500
 
@@ -43,7 +43,7 @@ If you would like to contribute to the project, please fork the project on GitHu
 
 ## License
 
-ZeptoChat is licensed under the [Apache 2.0 License](./LICENSE.txt).
+JoyfulChat is licensed under the [Apache 2.0 License](./LICENSE.txt).
 
 ## Release Notes:
 
