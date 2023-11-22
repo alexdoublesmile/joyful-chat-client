@@ -1,4 +1,4 @@
-package org.example.zeptochatclient.util;
+package org.example.joyfulchatclient.util;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,9 +6,9 @@ import java.util.Properties;
 
 import static java.lang.Integer.parseInt;
 import static java.util.Objects.nonNull;
-import static org.example.zeptochatclient.util.PropertiesConstants.ENV_DELIMITER;
-import static org.example.zeptochatclient.util.PropertiesConstants.ENV_PREFIX;
-import static org.example.zeptochatclient.util.PropertiesConstants.PROPERTY_FILE_PATH;
+import static org.example.joyfulchatclient.util.PropertiesConstants.ENV_DELIMITER;
+import static org.example.joyfulchatclient.util.PropertiesConstants.ENV_PREFIX;
+import static org.example.joyfulchatclient.util.PropertiesConstants.PROPERTY_FILE_PATH;
 
 public final class PropertiesUtil {
     private static final Properties PROPERTIES = new Properties();
@@ -41,7 +41,7 @@ public final class PropertiesUtil {
     }
 
     private static void loadProperties() {
-        try (InputStream inputStream = org.example.zeptochatclient.util.PropertiesUtil.class.getClassLoader().getResourceAsStream(PROPERTY_FILE_PATH)) {
+        try (InputStream inputStream = org.example.joyfulchatclient.util.PropertiesUtil.class.getClassLoader().getResourceAsStream(PROPERTY_FILE_PATH)) {
             PROPERTIES.load(inputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);

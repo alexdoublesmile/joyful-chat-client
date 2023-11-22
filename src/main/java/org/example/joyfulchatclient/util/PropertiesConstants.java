@@ -1,4 +1,4 @@
-package org.example.zeptochatclient.util;
+package org.example.joyfulchatclient.util;
 
 public final class PropertiesConstants {
     public static final String ENV_DELIMITER = ":";

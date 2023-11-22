@@ -1,4 +1,4 @@
-package org.example.zeptochatclient;
+package org.example.joyfulchatclient;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;

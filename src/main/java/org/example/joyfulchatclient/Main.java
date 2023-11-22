@@ -1,13 +1,13 @@
-package org.example.zeptochatclient;
+package org.example.joyfulchatclient;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import org.example.zeptochatclient.util.PropertiesUtil;
+import org.example.joyfulchatclient.util.PropertiesUtil;
 
-import static org.example.zeptochatclient.util.PropertiesConstants.*;
+import static org.example.joyfulchatclient.util.PropertiesConstants.*;
 
 public class Main extends Application {
     @Override

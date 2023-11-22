@@ -1,4 +1,4 @@
-package org.example.zeptochatclient;
+package org.example.joyfulchatclient;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
@@ -7,9 +7,9 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
-import org.example.zeptochatclient.util.PropertiesUtil;
+import org.example.joyfulchatclient.util.PropertiesUtil;
 
-import static org.example.zeptochatclient.util.PropertiesConstants.*;
+import static org.example.joyfulchatclient.util.PropertiesConstants.*;
 
 public class Network {
     private SocketChannel channel;

@@ -1,4 +1,4 @@
-package org.example.zeptochatclient;
+package org.example.joyfulchatclient;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
