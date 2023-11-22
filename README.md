@@ -1,4 +1,4 @@
-# JoyfulChat Desktop Client based on JavaFX (v.0.0.1)
+# JoyfulChat Desktop Client based on JavaFX (v.0.0.2)
 
 ## Running
 
